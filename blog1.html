@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
+    <script src="/src/style.css"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>News</title>
+</head>
+<body>
+     <!-- NAVBAR -->
+    <Section>
+        <nav class="bg-slate-200 border-gray-800 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+                <a href="index.html" class="flex items-center">
+                    <img src="dist/logo.png" class="mr-3 h-10 md:h-12" alt="Logo">
+                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Kripto.News</span>
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                </button>
+                <div class="hidden w-full  md:block md:w-auto" id="navbar-default">
+                <ul class="flex flex-col p-4 mt-4 bg-slate-200 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-slate-200 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                    <a href="index.html"    class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                    <a href="blog1.html"    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">News</a>
+                    </li>
+                    <li>
+                    <a href="chart.html"    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Charts</a>
+                    </li>
+                    <li>
+                    <a href="subs.html"     class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Subscribe</a>
+                    </li>
+                    <li>
+                    <a href="contact.html"  class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </Section>
+
+        <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+        <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,ripple,binance-usd,cardano,solana,polkadot,dogecoin,matic-network" currency="usd" background-color="#ffffff" locale="en"></coingecko-coin-price-marquee-widget>
+        
+    <div class="text-slate-100 px-10 py-6 md:px-60 md:py-6 relative lg:absolute">     
+        <a href="index.html" class="text-sm md:text-md px-4 md:px-5 py-1 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 border border-blue-500 rounded-full  font-semibold shadow-2xl shadow-blue-500/50 focus:ring-1 focus:ring-blue-600">Back</a>
+    </div>
+
+    <section class="flex flex-col lg:flex-row justify-between">
+        <div class="container text-center max-w-auto px-12 py-12 md:px-52 md:py-16 shadow-2xl">
+            <h1 class="text-2xl md:text-4xl mb-8 font-bold">Noteworthy technology acquisitions 2021</h1>
+            <img class="rounded-2xl md:w-1/2 md:float-left relative mr-8 mb-8 md:mb-1" src="/dist/blog1.jpg" alt="" >
+            
+            <p class="text-sm md:text-lg text-justify ">The Investor Protection Unit of the Delaware Department of Justice has issued a summary order against 23 crypto projects and individuals. The cease-and-desist order was issued to establishments involved in a cryptocurrency scam known as the “pig butchering scam.”
+                The Investor Protection Unit Issues an Order to Freeze Fraudulent Accounts <br>
+                Using a data analytics company, the Delaware Investor Protection Unit was able to trace cryptocurrency belonging to two Delaware pig butchering victims to several virtual wallets on various crypto exchanges.  The cease-and-desist order prohibits the entities affiliated with the fraudulent wallets from withdrawing or moving assets owned by the complainants. 
+                <br>
+                Ultimately, this prevents exchanges holding the wallets from allowing parties to move the fraudulently-acquired crypto, thus effectively freezing the accounts holding assets belonging to the Delaware victims.
+                The Pig Butchering Scam
+                <br>
+                The pig butchering scam is an old crypto scheme that has cost investors a lot of money. Pig butchering refers to the fraudulent act of scammers who build trust with their victims over time and then pressurize them to deposit more and more of their crypto assets into large digital wallets controlled by the scammer.
+                <br>
+                According to an FBI report, pig butchering is the way scammers “feed their victims with promises of romance and riches before cutting them off and taking all their money,”
+                First Step in Crypto Investor Protection
+                <br>
+                In an announcement on Wednesday, Attorney General Kathy Jennings announced that victims of pig butchering scams are groomed to make investments using crypto. Eventually, they discovered that what they thought was a safe investment was only a scam. 
+                <br>
+                According to her, “Protecting investors from online scammers is extremely important. When victims lose money through cryptocurrency scams, including the pig butchering scam, it can be difficult to recover those funds. Today’s order takes a first step toward protecting Delaware investors from the pig butchering scam by freezing funds at risk from further transfer by the wrongdoers.”
+            </p>
+         <div class="relative mt-10">                
+                <div class="text-slate-100 px-10 py-6 md:px-36 md:py-6">     
+                    <a href="index.html" class="text-sm md:text-md px-4 md:px-5 py-1 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 border border-blue-500 rounded-full  font-semibold shadow-2xl shadow-blue-500/50 focus:ring-1 focus:ring-blue-600">Next</a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+</body>
+</html>
